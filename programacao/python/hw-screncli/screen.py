@@ -3,7 +3,7 @@
 import click, colorama
 
 @click.command()
-@click.option("--count", default=1, help="Quantidade de vez que vai rodar o formulário")
+@click.option("--count", default=1, help="Quantidade de vez que vai rodar o print")
 @click.option("--nome", prompt="Nome", help="Nome da pessoa")
 @click.option("--sobrenome", prompt="Sobrenome", help="Sobrenome da pessoa")
 
